@@ -8,7 +8,7 @@ function validate(){
     let text = "Essaye encore...";
     let classe = "text-warning";
     // Hey ! Tu triches ! Bien joué petit pirate ;)
-    if(value.toLowerCase() == 'maxime'){
+    if(value.toLowerCase().trim() == 'maxime'){
         text = "BRAVO !!!";
         classe = "text-success";
     }
