@@ -2,6 +2,9 @@
 function validate(){
     const value = document.getElementById("input-prenom").value
 
+    if(!value){
+        return;
+    }
     let text = "Essaye encore...";
     let classe = "text-warning";
     // Hey ! Tu triches ! Bien joué petit pirate ;)
